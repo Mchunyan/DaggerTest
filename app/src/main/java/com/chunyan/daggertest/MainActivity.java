@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.chunyan.daggertest.Student.Student;
 import com.chunyan.daggertest.base.MyApplication;
+import com.chunyan.daggertest.mvp.LoginActivity;
 import com.chunyan.daggertest.person.DaggerPersonConponent;
 import com.chunyan.daggertest.person.Person;
 import com.chunyan.daggertest.person.PersonModule;
@@ -52,5 +53,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void 跳转(View view) {
         startActivity(new Intent(this, SecondActivity.class));
+    }
+
+    public void 登录(View view) {
+        startActivity(new Intent(this, LoginActivity.class));
     }
 }

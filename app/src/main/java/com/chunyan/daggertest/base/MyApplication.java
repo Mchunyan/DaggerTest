@@ -2,7 +2,6 @@ package com.chunyan.daggertest.base;
 
 import android.app.Application;
 
-import com.chunyan.daggertest.DaggerBaseConponent;
 
 public class MyApplication extends Application {
 
