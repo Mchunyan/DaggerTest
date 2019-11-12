@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         Log.e("MainActivity", person2.toString());
         Log.e("MainActivity", student1.toString());
         Log.e("MainActivity", student2.toString());
+        //111222
+
 
     }
 
